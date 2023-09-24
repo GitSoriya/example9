@@ -1,0 +1,54 @@
+.card{
+    background-color:rgb(104, 234, 234);
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    transition: all 0.5s;
+    
+    /* height: ;  មិនបាច់ដាក់ទេគឺវា auto*/ 
+}
+.card:hover{
+    box-shadow: 0px 5px 8px blue ;
+    background-color:rgb(0, 255, 170) ;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    font-size: 20px;
+}
+.card a{
+    background-color: rgb(210, 96, 210);
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.5s; /* កំំំំំំំំ​​​​​​​​ណត់វិនាទីឲ្យ hover */
+}
+.card a:hover{
+    background-color: rgb(244, 100, 100);
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(205, 194, 194) ;
+    padding: 20px 0px; 
+    margin: 40px auto;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    font-size: 50px;
+}
+/*
+    flex-wrap: wrap; សម្រាប់ធ្វើឲ្យ flex វា responsive តាម device
+    transition: all 0.5s;  កំំំំំំំំ​​​​​​​​ណត់វិនាទីឲ្យ hover 
+    padding : គម្លាតចូលខាងក្នុង
+    margin : គម្លាតចេញខាងក្រៅ
+*/
+
+
